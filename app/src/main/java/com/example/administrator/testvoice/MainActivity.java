@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         King.init(getApplication());
         Button btn = (Button) findViewById(R.id.btn);
 
+
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
