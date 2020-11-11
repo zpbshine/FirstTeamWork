@@ -23,7 +23,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    implementation('com.google.android.gms:play-services-wearable:17.0.0'){
-        exclude module: 'support-v4'
-    }
+//    implementation 'com.google.android.gms:play-services-wearable:10.2.0'
 }
